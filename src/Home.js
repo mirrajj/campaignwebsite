@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-<div class="my-6">
+<div class=" mt-0" id="home">
   <div class="container mx-auto">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
      

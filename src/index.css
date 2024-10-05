@@ -59,10 +59,13 @@ code {
 }
 /**********************hero section********************************/
 #hero{
-  background: linear-gradient(to right ,rgba(0, 0, 0, 0.735) 30%,rgba(0,0,0,0.5))/* url("/public/images/mahama_jane.jpeg")*/;
-  background-position: center;
-  background-size: cover;
-  color: white;
+  background-color: #ffffff;
+  background-image: linear-gradient(to right ,rgba(0, 0, 0, 0.402),rgba(0, 0, 0, 0.178)),url("https://www.transparenttextures.com/patterns/washi.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /* background: linear-gradient(to right ,rgba(0, 0, 0, 0.735) 30%,rgba(0,0,0,0.5))url("/public/images/mahama_jane.jpeg"); */
+  /* background-position: center; */
+  /* background-size: cover; */
+  color: rgb(68, 205, 68);
   backdrop-filter: blur(50px);
   position: relative;
 }
@@ -74,24 +77,29 @@ code {
   line-height: 40px;
   
 }
-/* #hero-message{
-  border: 1px solid rgb(68, 205, 68);
+#hero-bottom{
+  width: 150px;
+  height: 150px;
+  border-radius: 0 100% 0 0;
   background-color: white;
-  border-radius: 50%;
-  width: 500px;
-  height: 500px;
-  color: rgb(68, 205, 68);
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  justify-content: center;
-} */
-#style-font{
   position: absolute;
-  top: 90%;
-  font-size: 40px;
-  font-weight: 100;
+  left: 0;
+  bottom: 0;
+  color: rgb(68, 205, 68);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 6px 3px 6px, rgba(0, 0, 0, 0.23) 6px 3px 6px;
 }
+
+
+/* #home{
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! 
+} */
 /***********************welcome message*******************************/
 
 #home01-right{
